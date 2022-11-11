@@ -6,13 +6,9 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     padding: 30px 15px;
     top: 0;
-    left: 0%;
+    left: 0;
     overflow: hidden;
     transition: 0.3s;
-}
-
-.nav:hover {
-    width: 234px;
 }
 
 .nav__wrap {
@@ -40,17 +36,16 @@
     color: #939393;
     font-size: 40px;
     display: flex;
-
     align-items: center;
     gap: 29px;
 }
 
 .link__span {
     font-family: 'RR', sans-serif;
-    font-style: normal;
-    font-weight: 400;
     font-size: 18px;
+    font-weight: 400;
     line-height: 21px;
+    letter-spacing: 0em;
     text-align: center;
 }
 
@@ -64,4 +59,7 @@
 
 .menu__link:hover {
     color: #2A86B1;
+}
+.nav:hover{
+    width: 234px;
 }
